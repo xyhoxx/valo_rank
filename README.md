@@ -1,2 +1,5 @@
-# valo_rank
-A Python API for retrieving Valorant player rank and Ranked Rating (RR) data, designed for integration with Twitch bots to provide real-time rank tracking and display.
+# Valorant Rank Tracker API
+
+Valorant Rank Tracker API is designed to help players and developers easily access and track the rank and Ranked Rating (RR) of Valorant players. This API provides real-time data on player ranks and RR, enabling users to monitor their progress and performance in the game. By integrating this API, developers can create applications and tools that offer detailed insights into a player's rank and RR, facilitating a better understanding of their competitive standing in Valorant. The API uses Riot Games' official endpoints to ensure accurate and up-to-date information.
+
+Additionally, this API is intended for use with Twitch bots, providing streamers and their communities with seamless access to player rank and RR information during live streams. Although similar APIs have been developed before, they often face frequent issues and reliability concerns. To address these challenges, we are developing our own solution to ensure a more robust and dependable service for our users.
