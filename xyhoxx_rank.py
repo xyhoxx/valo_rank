@@ -3,9 +3,9 @@ import requests
 
 app = Flask(__name__)
 
-API_KEY = 'YOUR_RIOT_GAMES_API_KEY'  # ใส่ API Key ที่คุณได้รับมาที่นี่
+API_KEY = 'YOUR_RIOT_GAMES_API_KEY'
 
-VALID_REGIONS = ['na', 'euw', 'eun', 'kr', 'jp', 'ap', 'sea']  # เพิ่ม regions ที่ถูกต้อง
+VALID_REGIONS = ['na', 'euw', 'eun', 'kr', 'jp', 'ap', 'sea']
 
 @app.route('/rank', methods=['GET'])
 def get_rank():
